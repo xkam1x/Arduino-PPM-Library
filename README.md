@@ -11,6 +11,8 @@ Usage:
 3. Create a PPM instance variable and call it what you want. example: PPM my_ppm;
 4. Initialise PPM instance you made and provide pin and trigger condition. example my_ppm.begin(2, 1);
 5. Call getValue to get PPM value. example 'some_variable' = my_ppm.getValue('channel_number');
+
+
 Example:
 -------------
 
